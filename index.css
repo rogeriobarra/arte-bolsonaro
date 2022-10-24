@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: 'roboto', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 10%);
+}
+
+canvas {
+  background-color: hsl(0, 0%, 10%);
+  margin: 3rem 0;
+}
+
+.nameForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+.nameForm-input {
+  border-radius: 5px;
+  border: 1px solid black;
+  display: block;
+  font-size: 1rem;
+  padding: 0.9rem 0.5rem;
+  width: 100%;
+}
+
+.nameForm-input:focus {
+  outline: 3px solid hsl(41, 100%, 55%);
+}
+
+.nameForm-button {
+  background-color: hsl(162, 99%, 35%);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nameForm-button:hover {
+  background-color: hsl(162, 99%, 25%);
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 1000px);
+}
+
+footer * {
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  color: white;
+  margin: 3rem 0;
+}
